@@ -14,17 +14,19 @@ export default function Services(props){
                         <p className="mt-[40px] rotate-[-90deg] text-[9px] text-[#656565]">02/06</p>
                     </div>
 
-                    <div className="min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
-                        <div className="relative min-w-[336px]">
+                    <div className="xsm:min-w-[336px] sm:min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
+                        <div className="relative xsm:min-w-[336px] sm:min-w-[336px]">
                             <img src="./service1.png"/>
                             <p className="flex justify-center items-center absolute w-[58px] h-[60px] bg-[#FFB000] rounded-bl-[10px] bottom-0 text-[23px] text-[#fff] font-[500]">01</p>
                         </div>
                         <h3 className="uppercase text-[clamp(16px,1.6666666666666667vw,24px)] text-[#010101] font-[500] text-center mt-[15px]">Intercity rides</h3>
                     </div>
 
-                    <div className="min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
-                        <div className="relative min-w-[336px] h-[425px] rounded-[10px] bg-[#006CB7]">
-                            <div className="h-full flex flex-col justify-center items-center">
+                    <div className="xsm:min-w-[336px] sm:min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
+                        <div className="relative xsm:min-w-[336px] sm:min-w-[336px] rounded-[10px] bg-[#006CB7]">
+                            
+                            <img className="relative opacity-0 z-10" src="./service3.png"></img>
+                            <div className="absolute top-0 z-50 w-full h-full flex flex-col justify-center items-center">
                                 <h3 className="text-[14px] text-[#fff] font-[600] uppercase">chauffeur hailing</h3>
                                 <div className="mt-[4px] min-w-[84px] min-h-[1px] bg-[#fff]"></div>
                                 <p className="mt-[23px] w-[236px] text-[14px] leading-[25px] font-[300] text-center text-[#fff]">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
@@ -34,8 +36,8 @@ export default function Services(props){
                         <h3 className="uppercase text-[clamp(16px,1.6666666666666667vw,24px)] text-[#010101] font-[500] text-center mt-[15px]">chauffeur hailing</h3>
                     </div>
 
-                    <div className="min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
-                        <div className="relative min-w-[336px]">
+                    <div className="xsm:min-w-[336px] sm:min-w-[336px] xsm:mt-[17px] sm:mt-[17px]">
+                        <div className="relative xsm:min-w-[336px] sm:min-w-[336px]">
                             <img src="./service3.png"/>
                             <p className="flex justify-center items-center absolute w-[58px] h-[60px] bg-[#FFB000] rounded-bl-[10px] bottom-0 text-[23px] text-[#fff] font-[500]">03</p>
                         </div>
