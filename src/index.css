@@ -13,10 +13,9 @@ h1{
 }
 
 .background{
-  background-image: url("./Assets/MainImage.png"), linear-gradient(90deg, rgba(156, 14, 14, 0.5), rgba(156, 61, 61, 0.15));
+  background: url("./Assets/MainImage.png"),linear-gradient(90deg, rgba(101, 101, 101, 0.5) 0%, rgba(101, 101, 101, 0.15) 100%) ;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .input1background{
