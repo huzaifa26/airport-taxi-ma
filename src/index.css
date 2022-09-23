@@ -62,3 +62,7 @@ input{
 li{
   cursor: pointer;
 }
+
+body{
+  overflow-x: hidden;
+}
