@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: poppins;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  padding: 0;
+  margin: 0;
+
+}
+
+.background{
+  background-image: url("./Assets/MainImage.png"), linear-gradient(90deg, rgba(156, 14, 14, 0.5), rgba(156, 61, 61, 0.15));
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.input1background{
+  background: url("./Assets/Vector.png");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+.input2background{
+  background: url("./Assets/Vector (1).png");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+.input3background{
+  background: url("./Assets/date.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.input4background{
+  background: url("./Assets/time.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.input5background{
+  background: url("./Assets/person.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.input6background{
+  background: url("./Assets/baggage.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+
+.buttonbackground{
+  background: url("./Assets/phone.png");
+  background-repeat: no-repeat;
+  background-position: 1% center;
+}
+
+input{
+  outline: none;
+}
+
+li{
+  cursor: pointer;
 }
