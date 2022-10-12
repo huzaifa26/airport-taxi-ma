@@ -1,13 +1,12 @@
 export default function Investor(props){
     return(
-    <div className="w-[calc(100vw - 100%)] mt-[40px]">
+    <div id="blog" className="w-[calc(100vw - 100%)] mt-[40px]">
         <div className="flex xsm:flex-col sm:flex-col items-center justify-center m-auto w-[88.88888888888889vw] relative">
             <div className="w-[27.77777777777778vw] min-w-[375px] xsm:h-[700px] sm:h-[700px] h-[720px] bg-[#006CB7] flex justify-end items-center">
                 <div className="relative xsm:left-0 sm:left-0 md:left-0 lg:left-0 left-[13%]">
                     <img src="./jack.png"/>
                     <h3 className="mt-[20px] text-[28px] text-[#FAFAFA] leading-[32px] font-[800]">Jack Nitzsche</h3>
                     <p className="mt-[8px] text-[16px] text-[#FAFAFA] font-[400]">Investor Group Coordinator</p>
-
                     <div className="mt-[70px] self-end place-content-end mr-[25px]">
                         <ul className="xsm:flex sm:flex hidden items-center justify-end gap-[20px] text-[12.02px] font-[400]">
                             <li className="text-[#FFB000]">01</li>

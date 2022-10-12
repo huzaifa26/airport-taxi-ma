@@ -68,7 +68,7 @@ export default function Trending(props){
       };
 
     return(
-        <div className="w-[calc(100vw - 100%)] mt-[30px]">
+        <div id="fleet" className="w-[calc(100vw - 100%)] mt-[30px]">
             <div className="xsm:hidden sm:hidden flex flex-col m-auto w-[87.13541666666667vw] min-h-[729px]">
                 <div className="flex h-[140px]">
                     <h2 className="text-[#262626] text-[clamp(24px,3.3333333333333335vw,48px)] font-[600] leading-[4.861111111111111vw] xsm:leading-[36px] w-[533px]"><span className="text-[#F2B120]">Trending</span> Fleets Great & Fast <span className="text-[#006CB7]">This Week</span></h2>

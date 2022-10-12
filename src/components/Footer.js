@@ -13,29 +13,30 @@ export default function Footer(props){
                     <li className="flex justify-center"><img src="./Logo.png"/></li>
                     <li className="xsm:mt-[38px] xsm:mb-[30px] w-[241px] xsm:w-[286px] text-center">Book a Gatwick taxi and save time, effort and resources!!</li>
                 </ul>
+                <div className="flex flex-1 self-start justify-around xsm:w-[100%] sm:w-[100%]">
+                    <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
+                        <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Buy with us</li>
+                        <li>FAQ’s</li>
+                        <li>About us</li>
+                        <li>Reviews</li>
+                    </ul>
 
-                <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
-                    <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Buy with us</li>
-                    <li>FAQ’s</li>
-                    <li>About us</li>
-                    <li>Reviews</li>
-                </ul>
+                    <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
+                        <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Categories</li>
+                        <li>School Transport </li>
+                        <li>Car Daily</li>
+                        <li>Electric Car</li>
+                        <li>Modern Car</li>
+                    </ul>
 
-                <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
-                    <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Categories</li>
-                    <li>School Transport </li>
-                    <li>Car Daily</li>
-                    <li>Electric Car</li>
-                    <li>Modern Car</li>
-                </ul>
-
-                <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
-                    <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Contact us</li>
-                    <li>Contact us</li>
-                    <li>Cookies Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Privacy policy</li>
-                </ul>
+                    <ul className="flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,0.6)] leading-[28px] self-start">
+                        <li className="text-[rgba(255,255,255,1)] font-[600] mb-[8px]">Contact us</li>
+                        <li>Contact us</li>
+                        <li>Cookies Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
 
                 <ul className="xsm:mt-[30px] xsm:flex-1 flex flex-col gap-[16px] text-[16px] text-[rgba(255,255,255,1)] leading-[28px] self-start">
                     <li className="text-[rgba(255,255,255,1)] font-[600] xsm:mb-0 mb-[8px]">Get in toch</li>

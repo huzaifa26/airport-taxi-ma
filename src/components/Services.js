@@ -1,6 +1,6 @@
 export default function Services(props){
     return(
-        <div className="w-[calc(100vw - 100%)] mt-[50px]">
+        <div id="service" className="w-[calc(100vw - 100%)] mt-[50px]">
             <div className="m-auto xsm:min-w-[336px] xsm:max-w-[336px] sm:max-w-[336px] w-[87.13541666666667vw] min-h-[627px]">
                 <p className="text-[clamp(12px,1.1111111111111112vw,16px)] font-[400] text-center">services & advantages</p>
                 <h2 className="mt-[10px] text-[clamp(18px,2.9166666666666665vw,42px)] text-[#FFB000] font-[700] uppercase text-center">Service we provide</h2>

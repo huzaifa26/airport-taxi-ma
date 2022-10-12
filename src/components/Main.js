@@ -13,7 +13,7 @@ export default function Main(){
     }
     return(
         <>
-        <div className="xsm:block sm:block hidden">
+        <div id="home" className="xsm:block sm:block hidden">
             <Navbar></Navbar>
         </div>
         <div className="background w-[calc(100vw - 100%)]">

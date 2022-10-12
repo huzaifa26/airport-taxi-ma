@@ -1,6 +1,6 @@
 export default function Contact(props){
     return(
-    <div className="w-[calc(100vw - 100%)] mt-[40px]">
+    <div id="contact" className="w-[calc(100vw - 100%)] mt-[40px]">
         <div className="flex items-center justify-center m-auto xsm:w-[100%] sm:w-[90%] w-[89.1673611111111vw] h-[591px] relative">
 
             <div className="flex xsm:justify-center sm:justify-center items-center rounded-[31.7px] xsm:rounded-[10px] xsm:pl-0 sm:rounded-[10px] sm:pl-0 pl-[6.458333333333333vw] xsm:min-w-[234px] sm:min-w-[234px] w-[100%] h-[335.27px] bg-[#0D3DE5] relative">

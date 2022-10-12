@@ -5,7 +5,7 @@ export default function Accress(props){
     
 
     return(
-        <div className="w-[calc(100vw - 100%)] mt-[30px]">
+        <div id="about" className="w-[calc(100vw - 100%)] mt-[30px]">
             <div className="flex m-auto w-[88.27986111111112vw]">
                 <div>
                     <h2 className="w-[42.47222222222222vw] min-w-[241.14px] text-[clamp(20px,3.3333333333333335vw,48px)] leading-[140%] text-[#1B1A1B] font-[600]">Get all access in your hands now</h2>
